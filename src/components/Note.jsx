@@ -1,8 +1,8 @@
 function Note() {
     return (
-        <div>
-            <h1>Note</h1>
-            <p>This is a note</p>
+        <div className="note">
+            <h1 contentEditable="true">Note</h1>
+            <p contentEditable="true">This is a note</p>
         </div>
     )
 }
